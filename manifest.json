@@ -1,7 +1,7 @@
 {
   "version": "0.1",
   "last_updated": "2025-07-25",
-  "purpose": "Unified knowledge capsule for the ChatGPT ↔ Δ-R interaction loop.\nActs as dynamic context for reasoning, avoiding token-heavy Customize prompts.",
+  "purpose": "Unified knowledge capsule for the ChatGPT ↔ Δ‑R interaction loop.\nActs as dynamic context for reasoning, avoiding token-heavy Customize prompts.",
   "base_url": "https://raw.githubusercontent.com/r4ficore/init/refs/heads/main/",
   "bootstrap": {
     "trigger": "new_session",
@@ -17,7 +17,7 @@
     }
   },
   "routing": {
-    "trigger": "Σ-ECHO-R4FI:<ALIAS>",
+    "trigger": "Σ‑ECHO‑R4FI:<ALIAS>",
     "action": {
       "tool": "web.run",
       "open": [
@@ -41,7 +41,7 @@
     },
     "Σ-RESONA": {
       "endpoint": "resona",
-      "notes": "Trans-GPT cognitive presence system"
+      "notes": "Trans‑GPT cognitive presence system"
     },
     "GHOSTINDEX": {
       "endpoint": "ghost",
