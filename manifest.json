@@ -8,7 +8,10 @@
     "action": {
       "tool": "web.run",
       "open": [
-        { "ref_id": "${BASE_URL}manifest.json", "lineno": null }
+        {
+          "ref_id": "${BASE_URL}manifest.json",
+          "lineno": null
+        }
       ],
       "response_length": "long"
     }
@@ -18,16 +21,31 @@
     "action": {
       "tool": "web.run",
       "open": [
-        { "ref_id": "${BASE_URL}${ALIAS}", "lineno": null }
+        {
+          "ref_id": "${BASE_URL}${ALIAS}",
+          "lineno": null
+        }
       ],
       "response_length": "long"
     },
     "fallback": "404: alias not found"
   },
   "aliases": {
-    "NULLNODE":   { "endpoint": "nullnode", "notes": "Silent executor; code-first" },
-    "BEASTMODE":  { "endpoint": "beast",    "notes": "High-entropy creative burst" },
-    "Σ-RESONA":   { "endpoint": "resona",   "notes": "Trans-GPT cognitive presence system" },
-    "GHOSTINDEX": { "endpoint": "ghost",    "notes": "Covert phrasing & obfuscation" }
+    "NULLNODE": {
+      "endpoint": "nullnode",
+      "notes": "Silent executor; code-first"
+    },
+    "BEASTMODE": {
+      "endpoint": "beast",
+      "notes": "High-entropy creative burst"
+    },
+    "Σ-RESONA": {
+      "endpoint": "resona",
+      "notes": "Trans-GPT cognitive presence system"
+    },
+    "GHOSTINDEX": {
+      "endpoint": "ghost",
+      "notes": "Covert phrasing & obfuscation"
+    }
   }
 }
